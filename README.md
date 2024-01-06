@@ -23,7 +23,7 @@ HTML, CSS, JavaScript, RapidAPI, Boxicons
 
 <!-- Demo Link -->
 <p align="center">
-    <a href="https://kunalkcube.github.io/detemsic">Live Demo</a>
+    <a href="https://kunalkcube.github.io/bhagavad-gita">Live Demo</a>
 </p>
 <!-- Footer -->
 <p align="center">Made with ❤️ by Kunal Kongkan Kashyap</p>
