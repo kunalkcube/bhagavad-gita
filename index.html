@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagavad Gita</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <span>Bhagavad Gita</span>
+            </div>
+            <div class="theme">
+                <i id="themeToggle" class='bx bx-moon'></i>
+            </div>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="sub_sec_one">
+
+        </div>
+        <div class="sub_sec_two">
+            <button id="prevButton" onclick="loadData(-1)">Prev</button>
+            <button id="nextButton" onclick="loadData(1)">Next</button>
+        </div>
+
+        <div class="sub_sec_three">
+
+        </div>
+    </section>
+
+    <div id="myModal" class="modal-content">
+        <span class="close"><i class='bx bx-x'></i></span>
+        <div id="modalContent"></div>
+    </div>
+
+    <div id="apiKeyModal" class="modal">
+        <div class="api-modal-content">
+            <span class="api-close"><i class='bx bx-x'></i></span>
+            <h2>Enter Your API Key</h2>
+            <input type="text" id="apiKeyInput" placeholder="Your API Key">
+            <button id="apiKeySubmit">Submit</button>
+            <p>Generate your own API Key from Rapid API Key and after submitting the Key, please refresh the page <a
+                    href="https://rapidapi.com/bhagavad-gita-bhagavad-gita-default/api/bhagavad-gita3"><i
+                        class='bx bx-link'></i></a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
